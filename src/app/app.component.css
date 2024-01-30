@@ -1,12 +1,21 @@
-.toolbar{
-    margin: 0px;
-    background-color: rgb(202, 220, 251);
-}
-.title{
-    width: 25%;
-    
+.index-toolbar{
+    background-color: rgb(106, 166, 225);
 }
 
-h1{
-    text-align: center;
+.title{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.menu-wrapper{
+    background-color: rgb(106, 166, 225);
+    border-radius: 8px;
+    border-color: rgb(189, 221, 249);
+}
+
+.spacer{
+    flex: 1 1 auto;
 }
